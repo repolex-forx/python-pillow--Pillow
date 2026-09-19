@@ -1,0 +1,39 @@
+[2026-09-19T01:12:21Z] === ENRICH ITERATION 2 START | repo=python-pillow/Pillow sha=46f45f67 ===
+[2026-09-19T01:12:21Z] [iter=2] PHASE START: enrich repo=python-pillow/Pillow sha=46f45f67 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/46f45f67-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/46f45f674d47b5d8bc54230dda8fe9e214598b87.nq.gz
+[2026-09-19T01:12:44Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-19T01:13:44Z] [iter=2] AST store loaded triples=4522505 load_secs=59 mem_mb=912 MB
+[2026-09-19T01:13:44Z] [iter=2] Step 2: Finding LSP targets mem_mb=912 MB
+[2026-09-19T01:13:49Z] [iter=2] LSP targets found call_sites=28623 imports=740 extends=71 implements=0 secs=5
+[2026-09-19T01:13:53Z] [iter=2] Loaded checkpoint partial graph triples=138946
+[2026-09-19T01:13:57Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=912 MB
+[2026-09-19T01:14:14Z] [iter=2] Position index built positions=294066 nodes_with_types=370013 secs=17 mem_mb=1175 MB
+[2026-09-19T01:14:14Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1175 MB already_completed_types=[] already_completed_files=316
+[2026-09-19T01:14:14Z] [iter=2] Resolving target type target_type=call_site count=28623
+[2026-09-19T01:14:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=src/libImaging/TiffDecode.c
+[2026-09-19T01:16:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=3 resolved=2 errors=130 current=src/libImaging/Geometry.c
+[2026-09-19T01:19:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=4 resolved=2 errors=273 current=src/Tk/tkImaging.c
+[2026-09-19T01:19:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=5 resolved=13 errors=309 current=src/libImaging/ZipEncode.c
+[2026-09-19T01:21:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=9 resolved=70 errors=382 current=src/libImaging/Resample.c
+[2026-09-19T01:23:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=10 resolved=74 errors=479 current=src/libImaging/Histo.c
+[2026-09-19T01:23:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=11 resolved=74 errors=512 current=src/libImaging/ColorLUT.c
+[2026-09-19T01:24:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=12 resolved=74 errors=543 current=src/libImaging/Paste.c
+[2026-09-19T01:25:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=13 resolved=74 errors=616 current=src/libImaging/UnpackYCC.c
+[2026-09-19T01:26:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=17 resolved=79 errors=649 current=src/libImaging/JpegEncode.c
+[2026-09-19T01:26:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=21 resolved=118 errors=683 current=src/libImaging/Matrix.c
+[2026-09-19T01:27:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=24 resolved=118 errors=725 current=src/libImaging/BoxBlur.c
+[2026-09-19T01:28:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=25 resolved=118 errors=790 current=src/libImaging/PcxDecode.c
+[2026-09-19T01:29:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=28 resolved=120 errors=819 current=src/libImaging/ZipDecode.c
+[2026-09-19T01:30:04Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=34 resolved=137 errors=861 current=src/libImaging/codec_fd.c
+[2026-09-19T01:30:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=39 resolved=150 errors=900 current=src/libImaging/XbmEncode.c
+[2026-09-19T01:31:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=43 resolved=150 errors=949 current=src/libImaging/BitDecode.c
+[2026-09-19T01:32:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=49 resolved=153 errors=979 current=src/libImaging/GetBBox.c
+[2026-09-19T01:32:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=53 resolved=153 errors=1008 current=src/libImaging/RawDecode.c
+[2026-09-19T01:33:08Z] [iter=2] Target type resolved target_type=call_site resolved=156 errors=1026 secs=1134 mem_mb=1189 MB
+[2026-09-19T01:33:08Z] [iter=2] Resolving target type target_type=import_statement count=740
+[2026-09-19T01:33:11Z] [iter=2] Target type resolved target_type=import_statement resolved=77 errors=0 secs=3 mem_mb=1189 MB
+[2026-09-19T01:33:11Z] [iter=2] Resolving target type target_type=extends_clause count=71
+[2026-09-19T01:33:13Z] [iter=2] Target type resolved target_type=extends_clause resolved=2 errors=0 secs=1 mem_mb=1189 MB
+[2026-09-19T01:33:29Z] [iter=2] Step 5: Writing final enrichment file triples=211478
+[2026-09-19T01:33:33Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/46f45f674d47b5d8bc54230dda8fe9e214598b87.nq.gz size_kb=4569
+[2026-09-19T01:33:33Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-09-19T01:33:33Z] [iter=2] PHASE END: enrich elapsed_s=1272 elapsed_min=21.2 total_triples=211478
