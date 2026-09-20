@@ -1,0 +1,144 @@
+[2026-09-20T05:17:30Z] === ENRICH ITERATION 1 START | repo=python-pillow/Pillow sha=9b4fae77 ===
+[2026-09-20T05:17:30Z] [iter=1] PHASE START: enrich repo=python-pillow/Pillow sha=9b4fae77 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9b4fae77-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9b4fae77178e827ab17118fbc89c739ffd6a0fab.nq.gz
+[2026-09-20T05:17:45Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-20T05:18:53Z] [iter=1] AST store loaded triples=4070657 load_secs=66 mem_mb=913 MB
+[2026-09-20T05:18:53Z] [iter=1] Step 2: Finding LSP targets mem_mb=913 MB
+[2026-09-20T05:18:58Z] [iter=1] LSP targets found call_sites=26276 imports=104 extends=2 implements=0 secs=5
+[2026-09-20T05:19:01Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=913 MB
+[2026-09-20T05:19:16Z] [iter=1] Position index built positions=271666 nodes_with_types=341750 secs=15 mem_mb=913 MB
+[2026-09-20T05:19:16Z] [iter=1] Step 3: Starting LSP resolution mem_mb=913 MB already_completed_types=[] already_completed_files=0
+[2026-09-20T05:19:16Z] [iter=1] Resolving target type target_type=call_site count=26276
+[2026-09-20T05:19:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=0 resolved=0 errors=0 current=Tests/test_file_libtiff.py
+[2026-09-20T05:20:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=1 resolved=239 errors=97 current=src/PIL/Jpeg2KImagePlugin.py
+[2026-09-20T05:21:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=2 resolved=303 errors=136 current=Tests/test_file_jpeg.py
+[2026-09-20T05:24:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=3 resolved=502 errors=273 current=Tests/test_image_reduce.py
+[2026-09-20T05:25:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=4 resolved=529 errors=335 current=src/PIL/ImageChops.py
+[2026-09-20T05:26:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.7 files_done=5 resolved=529 errors=405 current=Tests/test_image_crop.py
+[2026-09-20T05:27:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=7 resolved=948 errors=476 current=Tests/test_image_filter.py
+[2026-09-20T05:27:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=10 resolved=1047 errors=509 current=Tests/test_file_jpeg2k.py
+[2026-09-20T05:28:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=11 resolved=1123 errors=544 current=Tests/test_file_eps.py
+[2026-09-20T05:31:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=13 resolved=1572 errors=691 current=Tests/test_image_resample.py
+[2026-09-20T05:32:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=14 resolved=1719 errors=808 current=Tests/test_pickle.py
+[2026-09-20T05:36:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=16 resolved=2100 errors=1000 current=Tests/test_file_png.py
+[2026-09-20T05:37:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=17 resolved=2296 errors=1096 current=Tests/test_imageops_usm.py
+[2026-09-20T05:40:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=20 resolved=2470 errors=1251 current=Tests/test_lib_pack.py
+[2026-09-20T05:45:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.3 files_done=21 resolved=2487 errors=1574 current=src/PIL/PcxImagePlugin.py
+[2026-09-20T05:46:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.9 files_done=22 resolved=2511 errors=1608 current=setup.py
+[2026-09-20T05:49:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.6 files_done=23 resolved=2737 errors=1767 current=Tests/test_imageops.py
+[2026-09-20T05:50:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.1 files_done=24 resolved=2912 errors=1855 current=src/PIL/Image.py
+[2026-09-20T05:56:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.5 files_done=25 resolved=3283 errors=2178 current=src/PIL/EpsImagePlugin.py
+[2026-09-20T05:56:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.2 files_done=27 resolved=3469 errors=2219 current=src/PIL/XbmImagePlugin.py
+[2026-09-20T05:57:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.1 files_done=29 resolved=3577 errors=2270 current=src/PIL/MpegImagePlugin.py
+[2026-09-20T05:58:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.0 files_done=31 resolved=3770 errors=2320 current=Tests/test_imagemath_lambda_eval.py
+[2026-09-20T06:00:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.0 files_done=32 resolved=3881 errors=2442 current=Tests/test_file_mpo.py
+[2026-09-20T06:01:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.6 files_done=37 resolved=4000 errors=2479 current=Tests/test_file_tga.py
+[2026-09-20T06:02:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=39 resolved=4120 errors=2540 current=Tests/test_image_point.py
+[2026-09-20T06:02:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.2 files_done=40 resolved=4131 errors=2572 current=src/PIL/PixarImagePlugin.py
+[2026-09-20T06:03:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.8 files_done=42 resolved=4183 errors=2606 current=src/PIL/ImageFont.py
+[2026-09-20T06:03:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.4 files_done=43 resolved=4241 errors=2643 current=winbuild/build_prepare.py
+[2026-09-20T06:04:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.5 files_done=44 resolved=4382 errors=2702 current=src/PIL/ImageDraw.py
+[2026-09-20T06:06:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.8 files_done=45 resolved=4505 errors=2784 current=src/PIL/ImageShow.py
+[2026-09-20T06:07:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.3 files_done=48 resolved=4964 errors=2865 current=Tests/test_imagefont.py
+[2026-09-20T06:08:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.2 files_done=49 resolved=5260 errors=2921 current=src/PIL/PpmImagePlugin.py
+[2026-09-20T06:09:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.7 files_done=50 resolved=5323 errors=2951 current=Tests/test_image_access.py
+[2026-09-20T06:09:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.4 files_done=51 resolved=5423 errors=2993 current=src/PIL/PdfParser.py
+[2026-09-20T06:11:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.2 files_done=52 resolved=5733 errors=3098 current=src/PIL/_deprecate.py
+[2026-09-20T06:12:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.3 files_done=54 resolved=5793 errors=3159 current=src/PIL/ImageColor.py
+[2026-09-20T06:13:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.4 files_done=56 resolved=5914 errors=3229 current=Tests/test_locale.py
+[2026-09-20T06:15:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=57.6 files_done=58 resolved=5958 errors=3303 current=src/PIL/ImageMath.py
+[2026-09-20T06:16:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.7 files_done=59 resolved=5988 errors=3365 current=Tests/test_file_webp_metadata.py
+[2026-09-20T06:16:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.3 files_done=61 resolved=6163 errors=3405 current=Tests/test_pdfparser.py
+[2026-09-20T06:17:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.0 files_done=67 resolved=6446 errors=3441 current=docs/example/DdsImagePlugin.py
+[2026-09-20T06:18:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.6 files_done=69 resolved=6548 errors=3478 current=Tests/test_file_ppm.py
+[2026-09-20T06:18:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.1 files_done=72 resolved=6672 errors=3510 current=Tests/test_image_split.py
+[2026-09-20T06:19:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.7 files_done=74 resolved=6698 errors=3542 current=Tests/test_file_gimpgradient.py
+[2026-09-20T06:20:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.5 files_done=77 resolved=6903 errors=3593 current=Tests/test_file_dds.py
+[2026-09-20T06:21:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.0 files_done=80 resolved=7130 errors=3683 current=src/PIL/IcoImagePlugin.py
+[2026-09-20T06:22:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.7 files_done=81 resolved=7182 errors=3724 current=src/PIL/GimpPaletteFile.py
+[2026-09-20T06:22:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.3 files_done=84 resolved=7341 errors=3756 current=src/PIL/PdfImagePlugin.py
+[2026-09-20T06:23:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.1 files_done=85 resolved=7367 errors=3806 current=Tests/test_box_blur.py
+[2026-09-20T06:24:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.4 files_done=87 resolved=7494 errors=3883 current=Tests/test_core_resources.py
+[2026-09-20T06:25:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.0 files_done=89 resolved=7582 errors=3918 current=src/PIL/ImageGrab.py
+[2026-09-20T06:25:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.5 files_done=91 resolved=7642 errors=3949 current=Tests/test_imagemath_unsafe_eval.py
+[2026-09-20T06:27:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.1 files_done=92 resolved=7755 errors=4046 current=Tests/test_format_hsv.py
+[2026-09-20T06:28:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.6 files_done=94 resolved=7833 errors=4080 current=Tests/test_file_container.py
+[2026-09-20T06:28:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.2 files_done=99 resolved=7930 errors=4112 current=src/PIL/MpoImagePlugin.py
+[2026-09-20T06:29:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.7 files_done=102 resolved=7984 errors=4142 current=Tests/test_imagepath.py
+[2026-09-20T06:29:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.2 files_done=105 resolved=8130 errors=4175 current=Tests/test_file_pcx.py
+[2026-09-20T06:30:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.8 files_done=109 resolved=8239 errors=4212 current=src/PIL/FpxImagePlugin.py
+[2026-09-20T06:30:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.5 files_done=111 resolved=8313 errors=4250 current=Tests/check_imaging_leaks.py
+[2026-09-20T06:32:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.5 files_done=113 resolved=8397 errors=4312 current=Tests/test_imagemorph.py
+[2026-09-20T06:32:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.3 files_done=115 resolved=8533 errors=4360 current=Tests/check_jpeg_leaks.py
+[2026-09-20T06:36:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=78.6 files_done=118 resolved=8748 errors=4559 current=Tests/test_qt_image_toqimage.py
+[2026-09-20T06:36:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.3 files_done=127 resolved=9066 errors=4594 current=src/PIL/TgaImagePlugin.py
+[2026-09-20T06:37:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=80.3 files_done=129 resolved=9133 errors=4657 current=Tests/test_file_ico.py
+[2026-09-20T06:38:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.1 files_done=131 resolved=9208 errors=4705 current=Tests/oss-fuzz/test_fuzzers.py
+[2026-09-20T06:39:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.8 files_done=134 resolved=9308 errors=4744 current=Tests/createfontdatachunk.py
+[2026-09-20T06:40:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=83.1 files_done=137 resolved=9355 errors=4823 current=Tests/test_numpy.py
+[2026-09-20T06:41:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=83.9 files_done=138 resolved=9409 errors=4870 current=src/PIL/QoiImagePlugin.py
+[2026-09-20T06:42:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.5 files_done=141 resolved=9489 errors=4903 current=Tests/helper.py
+[2026-09-20T06:42:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.2 files_done=144 resolved=9751 errors=4943 current=Tests/test_image_rotate.py
+[2026-09-20T06:43:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.7 files_done=146 resolved=9785 errors=4974 current=Tests/test_map.py
+[2026-09-20T06:43:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=86.2 files_done=149 resolved=9867 errors=5005 current=Tests/test_file_hdf5stub.py
+[2026-09-20T06:44:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=86.9 files_done=154 resolved=9959 errors=5045 current=Tests/test_image_getcolors.py
+[2026-09-20T06:45:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=87.6 files_done=157 resolved=10038 errors=5091 current=Tests/test_tiff_ifdrational.py
+[2026-09-20T06:46:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.6 files_done=163 resolved=10157 errors=5148 current=src/PIL/BdfFontFile.py
+[2026-09-20T06:46:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=89.3 files_done=168 resolved=10222 errors=5192 current=Tests/test_mode_i16.py
+[2026-09-20T06:47:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=89.8 files_done=173 resolved=10337 errors=5223 current=src/PIL/ImageQt.py
+[2026-09-20T06:48:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.5 files_done=176 resolved=10399 errors=5267 current=src/PIL/PcdImagePlugin.py
+[2026-09-20T06:48:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.3 files_done=183 resolved=10464 errors=5312 current=Tests/test_image_getprojection.py
+[2026-09-20T06:50:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=93.2 files_done=188 resolved=10500 errors=5432 current=Tests/test_file_im.py
+[2026-09-20T06:51:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.0 files_done=194 resolved=10648 errors=5474 current=Tests/test_psdraw.py
+[2026-09-20T06:52:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.7 files_done=202 resolved=10773 errors=5520 current=Tests/test_image_getdata.py
+[2026-09-20T06:52:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.3 files_done=206 resolved=10798 errors=5555 current=src/PIL/DcxImagePlugin.py
+[2026-09-20T06:53:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.8 files_done=209 resolved=10820 errors=5586 current=Tests/test_file_webp_animated.py
+[2026-09-20T06:53:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.5 files_done=212 resolved=10886 errors=5624 current=Tests/test_file_xvthumb.py
+[2026-09-20T06:54:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.0 files_done=220 resolved=10935 errors=5656 current=Tests/test_file_iptc.py
+[2026-09-20T06:55:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.5 files_done=225 resolved=10986 errors=5687 current=Tests/oss-fuzz/fuzz_pillow.py
+[2026-09-20T06:55:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=98.3 files_done=233 resolved=11030 errors=5734 current=Tests/oss-fuzz/fuzzers.py
+[2026-09-20T06:56:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=98.9 files_done=241 resolved=11105 errors=5770 current=Tests/test_file_ftex.py
+[2026-09-20T06:57:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=99.5 files_done=250 resolved=11136 errors=5806 current=Tests/test_main.py
+[2026-09-20T06:57:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.0 files_done=258 resolved=11173 errors=5836 current=Tests/test_binary.py
+[2026-09-20T06:58:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.5 files_done=276 resolved=11241 errors=5865 current=src/PIL/_tkinter_finder.py
+[2026-09-20T07:04:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.5 files_done=284 resolved=11254 errors=6282 current=src/libImaging/JpegDecode.c
+[2026-09-20T07:08:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=111.1 files_done=286 resolved=11269 errors=6505 current=src/libImaging/Jpeg2KDecode.c
+[2026-09-20T07:09:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.4 files_done=288 resolved=11275 errors=6583 current=src/libImaging/Geometry.c
+[2026-09-20T07:12:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=115.0 files_done=289 resolved=11275 errors=6736 current=src/_webp.c
+[2026-09-20T07:15:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.8 files_done=291 resolved=11296 errors=6905 current=src/libImaging/Filter.c
+[2026-09-20T07:17:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=120.2 files_done=292 resolved=11296 errors=7054 current=src/libImaging/TiffDecode.c
+[2026-09-20T07:20:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.1 files_done=294 resolved=11351 errors=7227 current=src/libImaging/Paste.c
+[2026-09-20T07:22:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.5 files_done=295 resolved=11351 errors=7309 current=src/Tk/tkImaging.c
+[2026-09-20T07:22:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.1 files_done=296 resolved=11363 errors=7345 current=src/_imagingft.c
+[2026-09-20T07:24:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.0 files_done=297 resolved=11371 errors=7461 current=src/libImaging/Dib.c
+[2026-09-20T07:25:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.9 files_done=299 resolved=11390 errors=7513 current=src/libImaging/Reduce.c
+[2026-09-20T07:27:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.8 files_done=300 resolved=11390 errors=7632 current=src/display.c
+[2026-09-20T07:29:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.8 files_done=302 resolved=11576 errors=7750 current=src/encode.c
+[2026-09-20T07:30:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.6 files_done=303 resolved=11624 errors=7802 current=src/libImaging/BcnDecode.c
+[2026-09-20T07:31:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=134.1 files_done=304 resolved=11624 errors=7895 current=src/libImaging/Unpack.c
+[2026-09-20T07:33:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.4 files_done=305 resolved=11624 errors=8037 current=src/libImaging/Storage.c
+[2026-09-20T07:34:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.3 files_done=306 resolved=11650 errors=8091 current=src/libImaging/RankFilter.c
+[2026-09-20T07:36:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.7 files_done=308 resolved=11656 errors=8179 current=src/libImaging/ModeFilter.c
+[2026-09-20T07:37:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.0 files_done=310 resolved=11656 errors=8261 current=src/libImaging/JpegEncode.c
+[2026-09-20T07:38:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.0 files_done=314 resolved=11688 errors=8322 current=src/libImaging/Resample.c
+[2026-09-20T07:39:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.5 files_done=315 resolved=11692 errors=8410 current=src/libImaging/Access.c
+[2026-09-20T07:40:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.3 files_done=316 resolved=11692 errors=8457 current=src/libImaging/SgiRleDecode.c
+[2026-09-20T07:41:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.0 files_done=318 resolved=11692 errors=8502 current=src/libImaging/Effects.c
+[2026-09-20T07:42:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=145.0 files_done=321 resolved=11747 errors=8562 current=src/libImaging/Chops.c
+[2026-09-20T07:43:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=145.6 files_done=324 resolved=11763 errors=8599 current=src/libImaging/ColorLUT.c
+[2026-09-20T07:43:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.1 files_done=325 resolved=11763 errors=8630 current=src/libImaging/QuantHeap.c
+[2026-09-20T07:44:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.7 files_done=328 resolved=11777 errors=8665 current=src/libImaging/QuantPngQuant.c
+[2026-09-20T07:44:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.3 files_done=331 resolved=11786 errors=8700 current=src/thirdparty/fribidi-shim/fribidi.c
+[2026-09-20T07:45:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.3 files_done=337 resolved=11805 errors=8766 current=src/libImaging/Point.c
+[2026-09-20T07:46:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.4 files_done=339 resolved=11805 errors=8828 current=src/libImaging/File.c
+[2026-09-20T07:47:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.9 files_done=342 resolved=11805 errors=8861 current=src/libImaging/Crop.c
+[2026-09-20T07:47:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.5 files_done=347 resolved=11806 errors=8895 current=src/outline.c
+[2026-09-20T07:48:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.0 files_done=352 resolved=11813 errors=8930 current=src/libImaging/UnsharpMask.c
+[2026-09-20T07:49:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.6 files_done=357 resolved=11813 errors=8962 current=src/libImaging/RawDecode.c
+[2026-09-20T07:49:28Z] [iter=1] Target type resolved target_type=call_site resolved=11816 errors=8984 secs=9012 mem_mb=941 MB
+[2026-09-20T07:49:28Z] [iter=1] Resolving target type target_type=import_statement count=104
+[2026-09-20T07:49:30Z] [iter=1] Target type resolved target_type=import_statement resolved=83 errors=0 secs=2 mem_mb=941 MB
+[2026-09-20T07:49:30Z] [iter=1] Resolving target type target_type=extends_clause count=2
+[2026-09-20T07:49:31Z] [iter=1] Target type resolved target_type=extends_clause resolved=2 errors=0 secs=1 mem_mb=941 MB
+[2026-09-20T07:49:45Z] [iter=1] Step 5: Writing final enrichment file triples=191988
+[2026-09-20T07:49:48Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/9b4fae77178e827ab17118fbc89c739ffd6a0fab.nq.gz size_kb=4090
+[2026-09-20T07:49:48Z] [iter=1] PHASE END: enrich elapsed_s=9138 elapsed_min=152.3 total_triples=191988
