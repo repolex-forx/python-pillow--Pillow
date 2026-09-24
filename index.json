@@ -3,6 +3,11 @@
   "repo": "Pillow",
   "versions": [
     {
+      "commit": "da59ad000d1405eaecd557175e29083a87d19f7c",
+      "tag": "10.1.0",
+      "parsed_at": "2026-09-24T12:41:29.982512+00:00"
+    },
+    {
       "commit": "6956d0b2853f5c7ec5f6ec4c60725c5a7ee73aeb",
       "tag": "10.2.0",
       "parsed_at": "2026-09-21T05:02:15.175123+00:00"
