@@ -37175,6 +37175,55 @@
       ],
       "ast": [
         "aggregate/ast/e34d346f10c0b1c814661e662a3e0c1ef084cf1c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e34d346f10c0b1c814661e662a3e0c1ef084cf1c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "defusedxml",
+          "ecosystem": "PYPI",
+          "version": "0.7.1",
+          "githubOrg": "tiran",
+          "githubRepo": "defusedxml",
+          "githubCommit": "ebff1b493751e2f0775314bdd4188d64f07ea184",
+          "githubTag": "v0.7.1",
+          "githubUrl": "https://github.com/tiran/defusedxml",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/defusedxml/ElementTree.py"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.3.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/packaging/version.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+          "githubTag": "v84.0.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/setuptools/_distutils/compilers/C/base.py"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.3",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "dd88c0c19b54ad9ed3533224221285bf0873249a",
+          "githubTag": "v2.5.3",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/numpy/__init__.py"
+        }
       ]
     }
   ],
